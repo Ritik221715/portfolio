@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: tan;
+    color: hsl(0, 100%, 68%);
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    transition: 3s;
+    box-shadow:2px 2px 2px gray,4px 4px 4px green;
+}
+nav ul li:hover {
+    margin: 0 15px;
+    box-shadow:2px 2px 2px rgb(76, 233, 201),4px 4px 4px rgb(67, 255, 42),;
+    transition: 3s;
+}
+
+
+nav ul li a {
+    color: hsl(0, 77%, 55%);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: hsl(118, 77%, 55%);
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero img
+{
+    height: 100px;
+    border-radius: 300px;
+    box-shadow:5px 5px 5px hsl(152, 100%, 50%),-5px -5px 5px teal;
+    transition: 5s;
+}
+.hero img:hover
+{
+ height:200px;
+ border-radius: 200px;
+ box-shadow: -5px -5px 5px yellow,5px 5px 5px rgb(0, 213, 255);
+ transition: 5s;
+}
+
+.hero {
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: tan;
+    color: #d50000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 2s;
+    font-weight: bold;
+    transition: 3s;
+}
+.btn:hover{
+
+    background-color: aquamarine;
+    color:hsl(143, 100%, 50%);
+    transition: 2s;
+    border-radius: 50px;
+    transition: 3s;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: hwb(188 85% 3%);
+    color: #d50000;
+}
+
+#about {
+    background: hwb(0 81% 2%);
+    color: #d50000;
+}
+
+#projects {
+    background: hwb(164 81% 6%);
+    color: #d50000;
+}
+
+.project {
+    background-color: rgb(231, 203, 166);
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.project-info {
+    max-width: 600px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    color:red
+}
+
+#contact label {
+    background-color: beige;
+    margin: 0.5rem 0 0.2rem;;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c4f6c7;
+}
+
+#contact button {
+    background: #61dafb;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact button:hover{
+  border-radius: 40px;
+  background-color: rgb(25, 242, 108);
+  color: aquamarine;
+}
+
+footer {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
